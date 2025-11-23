@@ -1,0 +1,25 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+# 配置文件
+.env
+
+# 构建产物
+apps/web/src/data/photos-manifest.json
+apps/web/public/thumbnails
+apps/web/public/photos
+apps/web/public/originals
+apps/web/assets-git
+
+# 部署相关
+.vercel
+
+# IDE
+.claude
+.cursor
+.specstory
+.vscode
+
